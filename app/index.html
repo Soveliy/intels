@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <div class="wrapper">
+      <header class="header header--main">
+          <div class="container">
+            <div class="header__row">
+                <div class="burger">
+                    <div class="rect"></div>
+                    <div class="rect"></div>
+                    <div class="rect"></div>
+                </div>
+                <div class="logo header__logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="header__right">
+                    <a href="tel:4954455511" class="header__phone">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <mask id="path-1-inside-1_116:5015" fill="white">
+                          <rect x="4" y="2" width="16" height="20" rx="1"/>
+                          </mask>
+                          <rect x="4" y="2" width="16" height="20" rx="1" stroke="white" stroke-width="4" mask="url(#path-1-inside-1_116:5015)"/>
+                          <circle cx="12" cy="17" r="1.25" fill="white" stroke="white" stroke-width="0.5"/>
+                          </svg>
+                          495 44 555 11                        
+                    </a>
+                    <a href="#" class="header__cabinet">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C10.3431 4 9 5.34315 9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7C15 5.34315 13.6569 4 12 4ZM7 7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7C17 9.76142 14.7614 12 12 12C9.23858 12 7 9.76142 7 7ZM4.46447 15.4645C5.40215 14.5268 6.67392 14 8 14H16C17.3261 14 18.5979 14.5268 19.5355 15.4645C20.4732 16.4021 21 17.6739 21 19V21C21 21.5523 20.5523 22 20 22C19.4477 22 19 21.5523 19 21V19C19 18.2044 18.6839 17.4413 18.1213 16.8787C17.5587 16.3161 16.7956 16 16 16H8C7.20435 16 6.44129 16.3161 5.87868 16.8787C5.31607 17.4413 5 18.2043 5 19V21C5 21.5523 4.55228 22 4 22C3.44772 22 3 21.5523 3 21V19C3 17.6739 3.52678 16.4021 4.46447 15.4645Z" fill="white"/>
+                          </svg>
+                          
+                    </a>
+                </div>
+                <div class="main-menu">
+                    <div class="main-menu__row">
+                        <div class="menu">
+                            <div class="menu__title">
+                              Компания
+                            </div>
+                            <ul class="menu__list">
+                                <li class="menu__list-item"><a href="#">О компании</a></li>
+                                <li class="menu__list-item"><a href="#">Сертификаты и лицензии</a></li>
+                                <li class="menu__list-item"><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu">
+                          <div class="menu__title">
+                              Услуги
+                          </div>
+                          <ul class="menu__list">
+                              <li class="menu__list-item"><a href="#">Проектирование</a></li>
+                              <li class="menu__list-item"><a href="#">Строительство</a></li>
+                              <li class="menu__list-item"><a href="#">Сопровождение и ввод в эксплуатацию</a></li>
+                              <li class="menu__list-item"><a href="#">Эксплуатация и техническое обслуживание</a></li>
+                          </ul>
+                          </div>
+                          <div class="menu">
+                              <div class="menu__title">
+                                  Блог
+                              </div>
+                              <ul class="menu__list">
+                                  <li class="menu__list-item"><a href="#">Название статьи 1</a></li>
+                                  <li class="menu__list-item"><a href="#">Название статьи 2</a></li>
+                                  <li class="menu__list-item"><a href="#">Название статьи 3</a></li>
+                                  <li class="menu__list-item"><a href="#">Название статьи 4</a></li>
+                                  <li class="menu__list-item"><a href="#">Название статьи 5</a></li>
+                              </ul>
+                          </div>
+                    </div>
+                    <div class="main-menu__row">
+                        <div class="main-menu__number">
+                            <a href="tel:8-800-000-000-0">8-800-000-000-0</a>
+                        </div>
+                        <div class="main-menu__email">
+                            <a href="mailto:info@intelscon.ru">info@intelscon.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </header>
+      <main class="main">
+          <div class="hero">
+              <div class="hero__slider swiper-container">
+                <div id="fraction" class="swiper-fraction"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="hero__slider-item" style="background-image: url(images/hero.jpg);">
+                                <div class="container">
+                                    <div class="hero-slide" >
+                                        <h2>
+                                            строим здания из <br> металла с отделкой <br> сендвич панелями
+                                        </h2>
+                                        <a href="#" class="btn">ЭКСПРЕСС-РАСЧЕТ СТОИМОСТИ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__slider-item" style="background-image: url(images/hero.jpg);">
+                                <div class="container">
+                                    <div class="hero-slide" >
+                                        <h2>
+                                          строим здания из <br> металла с отделкой <br> сендвич панелями
+                                        </h2>
+                                        <a href="#" class="btn">ЭКСПРЕСС-РАСЧЕТ СТОИМОСТИ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__slider-item" style="background-image: url(images/hero.jpg);">
+                                <div class="container">
+                                    <div class="hero-slide" >
+                                        <h2>
+                                          строим здания из <br> металла с отделкой <br> сендвич панелями
+                                        </h2>
+                                        <a href="#" class="btn">ЭКСПРЕСС-РАСЧЕТ СТОИМОСТИ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__slider-item" style="background-image: url(images/hero.jpg);">
+                                <div class="container">
+                                    <div class="hero-slide" >
+                                        <h2>
+                                          строим здания из <br> металла с отделкой <br> сендвич панелями
+                                        </h2>
+                                        <a href="#" class="btn">ЭКСПРЕСС-РАСЧЕТ СТОИМОСТИ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__slider-item" style="background-image: url(images/hero.jpg);">
+                                <div class="container">
+                                    <div class="hero-slide" >
+                                        <h2>
+                                          строим здания из <br> металла с отделкой <br> сендвич панелями
+                                        </h2>
+                                        <a href="#" class="btn">ЭКСПРЕСС-РАСЧЕТ СТОИМОСТИ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                     
+                
+              </div>
+          </div>
+          <div class="about">
+              <div class="container">
+                  <div class="about__row">
+                      <h2>
+                        Заголовок
+                      </h2>
+                      <p>
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="steps">
+              <div class="steps__row">
+                  <div class="steps__item">
+                      <a href="#" class="steps-item">
+                          <div class="steps-item__icon">
+                              <img src="images/steps/1.png" alt="">
+                          </div>
+                          <div class="steps-item__title">
+                            Проектирование
+                          </div>
+                          <p>
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                          </p>
+
+                        </a>
+                  </div>
+                 
+                <div class="steps__item">
+                    <a href="#" class="steps-item">
+                        <div class="steps-item__icon">
+                            <img src="images/steps/2.png" alt="">
+                        </div>
+                        <div class="steps-item__title">
+                            Строительство
+                        </div>
+                        <p>
+                          Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                        </p>
+
+                      </a>
+                </div>
+                <div class="steps__item">
+                    <a href="#" class="steps-item">
+                        <div class="steps-item__icon">
+                            <img src="images/steps/3.png" alt="">
+                        </div>
+                        <div class="steps-item__title">
+                            Услуги
+                        </div>
+                        <p>
+                          Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                        </p>
+
+                      </a>
+                </div>
+                <div class="steps__item">
+                    <a href="#" class="steps-item">
+                        <div class="steps-item__icon">
+                            <img src="images/steps/4.png" alt="">
+                        </div>
+                        <div class="steps-item__title">
+                            рассчет стоимости
+                        </div>
+                        <p>
+                          Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                        </p>
+
+                      </a>
+                </div>
+              </div>
+          </div>
+          <div class="parthers">
+              <div class="container">
+                  <div class="parthers__head">
+                    <h2 class="section-title">
+                        Клиенты и партнеры
+                      </h2>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                  </div>
+                  <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/3.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/4.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/3.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="parthers__item">
+                                <img src="images/parrtners/4.png" alt="">
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                
+              </div>
+          </div>
+          <div class="advantage">
+              <div class="advantage__row">
+                  <div class="advantage__item">
+                      <div class="advantage__icon">
+                          <img src="images/advant/1.png" alt="">
+                      </div>
+                      <div class="advantage__desc">
+                        квалифицированные специалисты
+                      </div>
+                  </div>
+                  <div class="advantage__item">
+                    <div class="advantage__icon">
+                        <img src="images/advant/2.png" alt="">
+                    </div>
+                    <div class="advantage__desc">
+                        сжатые сроки работ
+                    </div>
+                </div>
+                <div class="advantage__item">
+                    <div class="advantage__icon">
+                        <img src="images/advant/3.png" alt="">
+                    </div>
+                    <div class="advantage__desc">
+                        высокое качество
+                    </div>
+                </div>
+                <div class="advantage__item">
+                    <div class="advantage__icon">
+                        <img src="images/advant/4.png" alt="">
+                    </div>
+                    <div class="advantage__desc">
+                        гарантии на работы
+                    </div>
+                </div>
+                <div class="advantage__item">
+                    <div class="advantage__icon">
+                        <img src="images/advant/5.png" alt="">
+                    </div>
+                    <div class="advantage__desc">
+                        опыт работы 10 лет
+                    </div>
+                </div>
+                <div class="advantage__item">
+                    <div class="advantage__icon">
+                        <img src="images/advant/6.png" alt="">
+                    </div>
+                    <div class="advantage__desc">
+                        профессиональный сервис
+                    </div>
+                </div>
+              </div>
+          </div>
+      </main>
+      <footer class="footer">
+          <div class="container">
+              <div class="footer__row">
+                  <div class="menu">
+                      <div class="menu__title">
+                        Компания
+                      </div>
+                      <ul class="menu__list">
+                          <li class="menu__list-item"><a href="#">О компании</a></li>
+                          <li class="menu__list-item"><a href="#">Сертификаты и лицензии</a></li>
+                          <li class="menu__list-item"><a href="#">Контакты</a></li>
+                      </ul>
+                  </div>
+                  <div class="menu">
+                    <div class="menu__title">
+                        Услуги
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a href="#">Проектирование</a></li>
+                        <li class="menu__list-item"><a href="#">Строительство</a></li>
+                        <li class="menu__list-item"><a href="#">Сопровождение и ввод в эксплуатацию</a></li>
+                        <li class="menu__list-item"><a href="#">Эксплуатация и техническое обслуживание</a></li>
+                    </ul>
+                    </div>
+                    <div class="menu">
+                        <div class="menu__title">
+                            Блог
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="#">Название статьи 1</a></li>
+                            <li class="menu__list-item"><a href="#">Название статьи 2</a></li>
+                            <li class="menu__list-item"><a href="#">Название статьи 3</a></li>
+                            <li class="menu__list-item"><a href="#">Название статьи 4</a></li>
+                            <li class="menu__list-item"><a href="#">Название статьи 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__logo footer__logo--pc">
+                            <img src="images/logo_foot.png" alt="">
+                        </div>
+                        <div class="footer__link-container">
+                            <a href="tel:88000000000" class="footer__link">8-800-000-000-0</a>
+                        </div>
+                        <div class="footer__adress">
+                            119261, г. Москва, ул. Панферова, дом 16, к.1, пом. III, комн.2, офис 102
+                        </div>
+                        <div class="social">
+                            <a class="social__item">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.7436 11.2342H9.78073C9.78073 11.2342 10.1697 11.2342 10.2993 10.9498C10.4289 10.8076 10.4289 10.381 10.4289 10.381C10.4289 10.381 10.4289 8.81671 11.0771 8.5323C11.7254 8.24789 12.6328 10.0966 13.5403 10.8076C14.1885 11.3764 14.7071 11.2342 14.7071 11.2342H17.1703C17.1703 11.2342 18.4667 11.092 17.8185 10.0966C17.8185 9.95435 17.4296 9.24333 16.0035 7.82128C14.4478 6.25702 14.7071 6.54143 16.5221 3.83954C17.6889 2.27528 18.0778 1.27985 17.9481 0.85323C17.8185 0.426615 17.0407 0.56882 17.0407 0.56882H14.3182C14.3182 0.56882 14.0589 0.56882 13.9293 0.56882C13.7996 0.711025 13.67 0.85323 13.67 0.85323C13.67 0.85323 13.2811 2.13308 12.6328 3.12851C11.5957 5.546 11.0771 5.546 10.8179 5.40379C10.4289 5.11938 10.5586 4.12395 10.5586 3.41292C10.5586 1.27985 10.8179 0.28441 9.91037 0.142205C9.65109 0 9.39181 0 8.61396 0C7.70647 0 6.79898 0 6.41005 0.28441C6.02113 0.426615 5.89149 0.85323 6.02113 0.85323C6.15077 0.85323 6.66933 0.995435 6.79898 1.27985C7.05826 1.70646 7.05826 2.55969 7.05826 2.55969C7.05826 2.55969 7.1879 5.11938 6.66933 5.40379C6.28041 5.6882 5.76184 5.26159 4.72471 3.27072C4.20615 2.13308 3.81722 0.995435 3.81722 0.995435C3.81722 0.995435 3.68758 0.85323 3.55794 0.711025C3.29866 0.56882 3.16901 0.426615 3.16901 0.426615H0.576184C0.576184 0.426615 0.18726 0.426615 0.0576184 0.56882C-0.072023 0.711025 0.0576184 1.13764 0.0576184 1.13764C0.0576184 1.13764 2.13188 6.25702 4.33579 8.95892C6.41005 11.3764 8.7436 11.2342 8.7436 11.2342Z" />
+                                    </svg>
+                                    
+                            </a>
+                            <a href="#" class="social__item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.99603 1.80194C12.6667 1.80194 12.9802 1.81385 14.0357 1.86148C15.0119 1.90514 15.5397 2.06787 15.8929 2.20679C16.3611 2.38936 16.6944 2.60369 17.0437 2.95297C17.3929 3.30224 17.6111 3.63564 17.7897 4.10399C17.9246 4.45723 18.0913 4.98512 18.1349 5.9615C18.1825 7.01727 18.1944 7.33082 18.1944 10.002C18.1944 12.6732 18.1825 12.9867 18.1349 14.0425C18.0913 15.0189 17.9286 15.5467 17.7897 15.9C17.6071 16.3683 17.3929 16.7017 17.0437 17.051C16.6944 17.4003 16.3611 17.6186 15.8929 17.7972C15.5397 17.9321 15.0119 18.0988 14.0357 18.1425C12.9802 18.1901 12.6667 18.202 9.99603 18.202C7.3254 18.202 7.01191 18.1901 5.95635 18.1425C4.98016 18.0988 4.45238 17.9361 4.09921 17.7972C3.63095 17.6146 3.29762 17.4003 2.94841 17.051C2.59921 16.7017 2.38095 16.3683 2.20238 15.9C2.06746 15.5467 1.90079 15.0189 1.85714 14.0425C1.80952 12.9867 1.79762 12.6732 1.79762 10.002C1.79762 7.33082 1.80952 7.01727 1.85714 5.9615C1.90079 4.98512 2.06349 4.45723 2.20238 4.10399C2.38492 3.63564 2.59921 3.30224 2.94841 2.95297C3.29762 2.60369 3.63095 2.38539 4.09921 2.20679C4.45238 2.07184 4.98016 1.90514 5.95635 1.86148C7.01191 1.80988 7.3254 1.80194 9.99603 1.80194ZM9.99603 0C7.28175 0 6.94048 0.0119071 5.87302 0.0595356C4.80952 0.107164 4.08333 0.277833 3.44841 0.523913C2.78968 0.777932 2.23413 1.12324 1.67857 1.6789C1.12302 2.23457 0.781746 2.79421 0.523809 3.4491C0.277778 4.08414 0.107143 4.81048 0.0595238 5.87815C0.0119048 6.94185 0 7.28319 0 9.99802C0 12.7128 0.0119048 13.0542 0.0595238 14.1218C0.107143 15.1856 0.277778 15.9119 0.523809 16.5509C0.777778 17.2098 1.12302 17.7654 1.67857 18.3211C2.23413 18.8768 2.79365 19.2181 3.44841 19.4761C4.08333 19.7222 4.80952 19.8928 5.87698 19.9405C6.94444 19.9881 7.28175 20 10 20C12.7183 20 13.0556 19.9881 14.123 19.9405C15.1865 19.8928 15.9127 19.7222 16.5516 19.4761C17.2103 19.2221 17.7659 18.8768 18.3214 18.3211C18.877 17.7654 19.2183 17.2058 19.4762 16.5509C19.7222 15.9159 19.8929 15.1895 19.9405 14.1218C19.9881 13.0542 20 12.7168 20 9.99802C20 7.27922 19.9881 6.94185 19.9405 5.87418C19.8929 4.81048 19.7222 4.08414 19.4762 3.44513C19.2222 2.78627 18.877 2.2306 18.3214 1.67494C17.7659 1.11927 17.2064 0.777932 16.5516 0.519944C15.9167 0.273864 15.1905 0.103195 14.123 0.0555666C13.0516 0.0119071 12.7103 0 9.99603 0Z" />
+                                    <path d="M9.99603 4.86206C7.16272 4.86206 4.86115 7.16035 4.86115 9.99847C4.86115 12.8366 7.16272 15.1349 9.99603 15.1349C12.8293 15.1349 15.1309 12.8326 15.1309 9.99847C15.1309 7.16432 12.8293 4.86206 9.99603 4.86206ZM9.99603 13.3328C8.15477 13.3328 6.66272 11.8403 6.66272 9.99847C6.66272 8.15667 8.15477 6.66417 9.99603 6.66417C11.8373 6.66417 13.3293 8.15667 13.3293 9.99847C13.3293 11.8403 11.8373 13.3328 9.99603 13.3328Z" />
+                                    <path d="M15.3333 5.85815C15.9951 5.85815 16.5317 5.32146 16.5317 4.65942C16.5317 3.99738 15.9951 3.46069 15.3333 3.46069C14.6714 3.46069 14.1348 3.99738 14.1348 4.65942C14.1348 5.32146 14.6714 5.85815 15.3333 5.85815Z" />
+                                    </svg>
+                                    
+                            </a>
+                        </div>
+
+                    </div>
+              </div>
+              <div class="footer__row footer__links">
+                  <a href="#">Intelsconstruction 2021</a>
+                  <a href="#">Политика конфиденциальности</a>
+                  <a href="#">Сайт создан в Волге-веб</a>
+                  <div class="footer__logo footer__logo--mob">
+                    <img src="images/logo_foot.png" alt="">
+                </div>
+              </div>
+          </div>
+      </footer>
+  </div> 
+   
+  
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  
+    
+</body>
+</html>
